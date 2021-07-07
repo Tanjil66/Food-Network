@@ -19,6 +19,7 @@ h1{
 }
 .half-width img{
     width: 150%;
+    
 }
 .title{
     padding-top: 20px ;
@@ -38,7 +39,7 @@ h1{
 }
 .Food-Network{
     
-    background-image: url(images/shapes/Frame\ 59.jpg);
+    /* background-image: url(images/shapes/Frame\ 59.jpg); */
     background-size: 100%;
     background-repeat: no-repeat;
     }
