@@ -1,7 +1,123 @@
 body{
-    font-family: 'Poppins',sans-serif;
-    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
 }
-.orange-color{
-    color: blue;
+p{
+    line-height: 1.6;
+}
+h1{
+    font-size:  40px;
+}
+.blue-color{
+    color: mediumblue;
+}
+
+.half-width{
+    padding-left: 10%;
+    width: 50%;
+    padding-right: 10%;
+}
+.half-width img{
+    width: 150%;
+}
+.title{
+    padding-top: 20px ;
+    padding-bottom: 10px;
+    font-size: 25px;
+    color:black;
+}
+.link-button{
+    
+    text-decoration: none;
+    background-image: linear-gradient(red,orange);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: larger;
+    color: white;
+    border-radius: 10px;
+}
+.Food-Network{
+    
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+.contact-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(235, 176, 60),tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: mintcream;
+    border-radius: 10px;
+}
+h2{
+    font-size: 30px;
+}
+.contact-me{
+    background-image: url(images/shapes/7.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.food{
+    
+    width: 50%;
+
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0px, 0px, 40px gray
+
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.food{
+    width: 22%;
+    background-color: white;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+}
+.food img{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+}
+.foot{
+    background-color:#000;
+    text-align: center;
+    height: 130px;
+    color: white;
+    padding-top: 30px;
+}
+h3{
+    color: rgba(56, 49, 49, 0.897);
+}
+.parent{
+    
+    display: flex;
+    background-color: white;
+    height: 120px;
+    padding:40px 45x;
+    border-radius: 15px;
+    margin: 100px 180px 60px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+    
+}
+*{
+    margin: 0;
+    padding:0;
+}
+.child{
+    margin:auto;
+}
+.font{
+    font-size: 30px;
+}
+#middle-text{
+    text-align: center;
 }
